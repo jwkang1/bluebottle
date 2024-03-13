@@ -128,6 +128,7 @@ padding: 16.111vw 4.444vw 14.722vw;
 .best-menu-area{
   width: 100%;
   padding: 9.444vw 4.166vw 7.777vw;
+  background-color: #dddddd;
 }
 
 .best-menu-area img{
@@ -153,4 +154,215 @@ padding: 16.111vw 4.444vw 14.722vw;
   color: #5e6068;
   margin-top: 3.888vw;
   margin-left: 6.666vw;
+}
+.best-menu-area .best-menu-box{
+
+  margin-top: 4.722vw;
+}
+.best-menu-area .best-menu-box .best-list img{
+width: 100%;
+}
+.best-menu-area .best-list .best-menu-txt{
+  display: block;
+  padding: 4.583vw 8.75vw;
+  background-color:#fff ;
+  
+}
+.best-menu-txt span{display: block;}
+.best-menu-txt .best-menu-des1{
+  color: #4b4e54;
+  font-size: 5.555vw;
+  font-weight: 500;
+}
+.best-menu-txt .best-menu-des2{
+  color: #4b4e54;;
+  font-size: 3.333vw;
+  padding: 4.444vw 0;
+  line-height: 1.5;
+  word-break: keep-all; /* 단어별로 문단이 끊어지는 것 / break-all은 단어 상관 없이 끊어짐(한글은 디폴드가 이거임) */
+}
+.best-list-pager {
+  display: flex;
+  justify-content: center;
+  margin-top: 6.922vw;
+}
+
+.best-list-pager span{
+  display: inline-block;
+  width: 4.166vw;
+  height: 4.166vw;
+  background-color: #c0c0c0;
+  margin: 0 2.222vw;
+  border-radius: 50%; /* 원 모양으로 만들기 */
+  text-indent: -9999px;
+  font-size: 0;
+
+}
+
+.best-list-pager span.active {
+  background-color: #ffffff; /* 활성 페이지 스타일 */
+}
+/* 커피매칭 */
+.match-area{
+  background-color: #242424;
+  padding: 9.777vw 4.444vw;
+}
+.match-box{
+  background-color: #fff;
+}
+.match-box img{
+  width: 100%;
+}
+.match-box .match-txt-box{
+  padding-top: 15.277vw;
+  padding-bottom: 9.027vw;
+  text-align: center;
+}
+.match-box .match-txt-box .match-title{
+  font-size: 10.277vw;
+  color: #575756;
+  padding-bottom: 9.027vw;
+}
+.match-box .match-txt-box .match-txt{
+  font-size: 3.611vw;
+  color: #575756;
+  padding-bottom: 12.5vw;
+}
+.match-box .match-txt-box .match-quiz{
+  display: inline-block;
+  margin: auto;
+  color: #fff;
+  background-color: #1da4d9;
+  width: 45.55vw; height: 13.35vw;
+  line-height: 13.35vw;
+  font-size: 3.6vw;text-align: center;
+}
+
+/* 매장찾기 */
+.shop-area h3{
+  font-size: 8.888vw;
+  color: #1da4d9;
+text-align: center;
+padding: 12.5vw 0;
+line-height: 1.15;
+}
+
+.shop-area .shop-area-title-txt{
+  text-align: center;
+  color: #666;
+  font-size: 4.861vw;
+ 
+}
+.shop-list{
+  padding: 7.777vw 8.722vw 6.666vw 10vw;
+}
+.shop-area dt{
+  background-color: #afafaf;
+  font-size: 5vw;
+  color: #fff;
+  width: 34.444vw;
+  height: 7.777vw;
+  line-height: 7.777vw;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+.shop-list dd{
+  font-size: 4.166vw;
+  color: #666;
+  padding-right: 3.333vw;
+  padding-left: 3.333vw;
+  position: relative;
+  display: inline-block;
+}
+.shop-list dd:first-of-type{padding-left: 0;}
+.shop-list dd:last-of-type{padding-right: 0;}
+.shop-list dd:after{
+  content: ""; background-color: #666;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+}
+.shop-list dd:last-of-type::after{display: none;}
+.shop-list-time{  padding: 9.166vw 8.722vw 10.555vw 10vw;}
+.shop-list-time dt{width: 22.5vw;}
+.shop-list-time dd{
+  font-size: 4.166vw;
+  color: #666; margin-bottom: 1.805vw;
+
+}
+  .shop-list-time dd span.day{
+    font-weight: 500;
+    position: relative;
+    padding-right: 3.333vw;
+    margin-right: 3.333vw;
+  }
+  .shop-list-time dd span.day::after{
+    content: ""; display: block;
+    position: absolute;
+    right: 0; top: 0; width: 1px;height: 100%;
+    background-color: #666; 
+  }
+
+  .shop-area .shop-search-btn{
+    width: 46.94vw; height: 15.83vw; line-height: 15.83vw; color:#fff; background-color: #00a1df; margin: 0 auto 13.88vw; text-align: center; font-size: 4.444vw;
+  }
+  .shop-list-box{margin: 0 3.888vw;}
+  .shop-list-box li{position: relative;}
+  .shop-list-box li img{width: 100%;}
+  .shop-list-box li .shop-list-title{
+    position: absolute; top: 2.5vw; right: 2.777vw;
+    background-color: #00a1df;font-size: 2.777vw;padding: 1.388vw 2.222vw;
+    color: #fff;
+  }
+/* 푸터 */
+footer .policy-area{
+padding: 2.222vw 0;
+background-color: #00a1df;
+color: white; text-align: center;
+font-size: 3.333vw;line-height: 3.333vw;
+
+}
+footer .policy-area span{
+  display: block; height: 3.888vw;
+  margin-bottom: 1.111vw;
+}
+footer .policy-area a{
+  display: inline-block;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid #fff;
+  height: 3.333vw;
+}
+footer .policy-area a:last-child{border-right: none; margin-right: 0;padding-right: 0;}
+footer .footer-menu-area{
+  background-color: #36373b;
+  color: #fff;
+  font-size: 3.333vw;
+  padding-top: 8.888vw;
+  padding-left: 4.44vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.444vw;
+}
+footer .footer-menu-area dl{
+  margin-bottom: 9.444vw;
+  
+}
+footer .footer-menu-area dl dt{
+  font-size: 3.888vw;
+  font-weight: 700;
+  color: #96cbde;
+  margin-bottom: 10.278vw;
+}
+footer .footer-menu-area dl dd{
+  margin-bottom: 3.333vw; font-weight: 3.333vw;
+  letter-spacing: -1.5px;
+}
+footer address{
+  text-align: center; color: #fff; height: 8.333vw;
+  line-height: 8.333vw;background-color: #222;
+  font-size: 2.777vw;
+  font-style: normal;
 }
