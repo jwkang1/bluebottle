@@ -126,7 +126,6 @@ padding: 16.111vw 4.444vw 14.722vw;
 }
 /* 베스트메뉴 */
 .best-menu-area{
-  width: 100%;
   padding: 9.444vw 4.166vw 7.777vw;
   background-color: #dddddd;
 }
@@ -344,7 +343,7 @@ footer .footer-menu-area{
   padding-left: 4.44vw;
   display: flex;
   flex-wrap: wrap;
-  gap: 4.444vw;
+  gap: 5.555vw;
 }
 footer .footer-menu-area dl{
   margin-bottom: 9.444vw;
